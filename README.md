@@ -7,6 +7,7 @@ Two files are generated:
 1. newsLinks.txt
 2. newsLinksCleaned.txt
 
+## Modification
 For a different website set the variable newsWebsite to the link.
 The cleaning of the extracted can be modified using the clean_data function.
 
