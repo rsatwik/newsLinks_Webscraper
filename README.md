@@ -9,6 +9,6 @@ Two files are generated:
 
 ## Modification
 For a different website set the variable newsWebsite to the link.
-The cleaning of the extracted can be modified using the clean_data function.
+The cleaning of the extracted data can be modified using the clean_data function.
 
 This is a very rudimentary code and might have bugs. Feedback and criticism is welcomed and appreciated. 
