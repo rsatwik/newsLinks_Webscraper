@@ -19,7 +19,7 @@ def web_scrape(link, fileAddr):
     tags = soup('a')
     with open(fileAddr, 'w') as fhandle:
         for tag in tags:
-            print(tag.get('href', ''))
+            # print(tag.get('href', '')) #
             fhandle.write(tag.get('href', ''))
             fhandle.write('\n')
             if re.search(link, tag.get('href', '')):
@@ -30,7 +30,7 @@ def web_scrape(link, fileAddr):
                     soup = BeautifulSoup(nhtml, 'html.parser')
                     tags = soup('a')
                     for tag in tags:
-                        print(tag.get('href', ''))
+                        # print(tag.get('href', '')) #
                         fhandle.write(tag.get('href', ''))
                         fhandle.write('\n')
                 except:
@@ -42,7 +42,8 @@ def clean_data(fileAddr, destfile, searchstr):
         with open(fileAddr, 'r') as fhandle:
             f = fhandle.readlines()
             for line in f:
-                if re.search(searchstr, line):
+                if (re.search(searchstr, line)) and (re.search('.ece',line)):
+                    print(line)
                     dhandle.write(line)
 
 
