@@ -1,7 +1,7 @@
 # newsLinks_Webscraper
 Distraction free headlines (links) from News website
 
-
+![](output.png)
 
 Two files are generated:
 1. newsLinks.txt
