@@ -1,5 +1,5 @@
 # newsLinks_Webscraper
-Distraction free headlines (links) from News website
+Distraction free headlines (links) from News website (for Linux systems)
 
 ![](output.png)
 
