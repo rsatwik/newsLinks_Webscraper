@@ -14,4 +14,4 @@ The cleaning of the extracted data can be changed using the clean_data function.
 This is a very rudimentary code and ~~might~~ will have bugs. Feedback and criticism are welcomed and appreciated. 
 
 ### Acknowledgments
-Thanks to Dr.Charles Severance (https://github.com/csev) for his wonderful book and accompanying lectures on python language (https://www.coursera.org/lecture/python/video-welcome-to-class-dr-chuck-GoNcs), because of which this mini-project was possible.
+Thanks to Dr.Charles Severance (https://github.com/csev) for his wonderful book and accompanying lectures on python language (https://www.coursera.org/lecture/python/video-welcome-to-class-dr-chuck-GoNcs), because of which this code was possible.
