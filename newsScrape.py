@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 '''Accessing a website'''
 import urllib.request
 import ssl
